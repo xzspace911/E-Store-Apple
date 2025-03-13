@@ -45,7 +45,7 @@ class XBottomNavigationBar extends StatelessWidget {
                 ),
                 IconButton(
                   onPressed: (){},
-                  icon: Icon(Iconsax.shop),
+                  icon: Icon(Iconsax.shopping_cart),
                   iconSize: 30,
                   color: Colors.blue[900],
                 ),

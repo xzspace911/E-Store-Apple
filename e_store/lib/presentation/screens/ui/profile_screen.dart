@@ -1,8 +1,10 @@
+import 'package:e_store/presentation/screens/ui/on_boarding_screen.dart';
 import 'package:e_store/presentation/widgets/bottom_navigation_bar.dart';
 import 'package:e_store/presentation/widgets/elevated_button.dart';
 import 'package:e_store/utils/colors.dart';
 import 'package:e_store/utils/strings.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -166,7 +168,7 @@ Future openDialog(BuildContext context) => showDialog(
                 height: 50,
                 width: 120,
                 child: ElevatedButton(
-                  onPressed: () {},
+                  onPressed: ()=> Get.to(()=> const OnBoardingScreen()),
                   style: ButtonStyle(
                       backgroundColor: WidgetStatePropertyAll(Colors.white),
                       side: WidgetStateProperty.all(

@@ -1,5 +1,6 @@
 import 'package:e_store/presentation/products_grids/card_list_view.dart';
 import 'package:e_store/presentation/products_grids/category_list_view.dart';
+import 'package:e_store/presentation/products_grids/product_grid_item.dart';
 import 'package:e_store/presentation/screens/ui/profile_screen.dart';
 import 'package:e_store/presentation/widgets/bottom_navigation_bar.dart';
 import 'package:e_store/utils/colors.dart';
@@ -109,9 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       SizedBox(width: 180),
                       IconButton(
-                        onPressed: () {
-                          openDialog(context);
-                        },
+                        onPressed: ()=> Get.to(()=> ProductGridItem()),
                         icon: Icon(Iconsax.element_3),
                       ),
                     ],
@@ -173,31 +172,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-
-Future openDialog(context) => showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: Text("Title"),
-        content: Text("here is the content"),
-        actions: [
-          ElevatedButton(
-            onPressed: () => Navigator.of(context).pop(),
-            style: ElevatedButton.styleFrom(
-              backgroundColor: XColors.darkPrimaryColor,
-              minimumSize: Size(100, 50),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
-            child: Text(
-              "Click",
-              style: TextStyle(
-                fontFamily: XStrings.mainFontFamily,
-                color: XColors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
