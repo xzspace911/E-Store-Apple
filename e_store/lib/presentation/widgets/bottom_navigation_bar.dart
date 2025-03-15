@@ -1,3 +1,4 @@
+import 'package:e_store/presentation/screens/ui/cart.dart';
 import 'package:e_store/presentation/screens/ui/chat_screen.dart';
 import 'package:e_store/presentation/screens/ui/home_screen.dart';
 import 'package:e_store/presentation/screens/ui/profile_screen.dart';
@@ -45,7 +46,7 @@ class XBottomNavigationBar extends StatelessWidget {
                   color: Colors.blue[900],
                 ),
                 IconButton(
-                  onPressed: (){},
+                  onPressed: ()=>Get.to(()=> const CartScreen()),
                   icon: Icon(Iconsax.shopping_cart),
                   iconSize: 30,
                   color: Colors.blue[900],

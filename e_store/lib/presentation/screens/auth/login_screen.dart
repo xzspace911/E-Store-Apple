@@ -1,9 +1,7 @@
 import 'package:e_store/presentation/screens/auth/create_account.dart';
 import 'package:e_store/presentation/screens/ui/home_screen.dart';
 import 'package:e_store/presentation/widgets/connect_with.dart';
-import 'package:e_store/presentation/widgets/divider.dart';
 import 'package:e_store/presentation/widgets/elevated_button.dart';
-import 'package:e_store/presentation/widgets/navigation_bar.dart';
 import 'package:e_store/utils/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

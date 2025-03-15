@@ -63,7 +63,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: 50,
                         width: 50,
                         child: InkWell(
-                          onTap: () => Get.to(()=> const ProfileScreen()),
+                          onTap: () => Get.to(() => const ProfileScreen()),
                           child: CircleAvatar(
                             child: Image.asset("assets/images/man.png"),
                           ),
@@ -110,7 +110,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       SizedBox(width: 180),
                       IconButton(
-                        onPressed: ()=> Get.to(()=> ProductGridItem()),
+                        onPressed: () => Get.to(() => ProductGridItem()),
                         icon: Icon(Iconsax.element_3),
                       ),
                     ],
@@ -139,32 +139,33 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Stack(
                       children: [
                         Align(
-                            alignment: Alignment(-0.3, 1),
-                            child: Image.asset("assets/images/iphone.png")),
+                          alignment: Alignment(-0.3, 1),
+                          child: Image.asset("assets/images/iphone.png"),
+                        ),
                         Align(
-                            alignment: Alignment(0.4, 1),
-                            child: SizedBox(
-                                height: 100,
-                                width: 100,
-                                child:
-                                    Image.asset("assets/images/airpods.png"))),
+                          alignment: Alignment(0.4, 1),
+                          child: SizedBox(
+                            height: 100,
+                            width: 100,
+                            child: Image.asset("assets/images/airpods.png"),
+                          ),
+                        ),
                         Align(
-                            alignment: Alignment(0.9, -0.8),
-                            child: SizedBox(
-                                height: 70,
-                                width: 70,
-                                child: Image.asset("assets/images/offer.png"))),
+                          alignment: Alignment(0.9, -0.8),
+                          child: SizedBox(
+                            height: 70,
+                            width: 70,
+                            child: Image.asset("assets/images/offer.png"),
+                          ),
+                        ),
                       ],
                     ),
                   ),
                   SizedBox(height: 120),
                 ],
-                
               ),
             ),
-            
           ),
-          
         ),
       ),
       floatingActionButton: XBottomNavigationBar(),

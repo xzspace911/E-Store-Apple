@@ -1,6 +1,5 @@
 import 'package:e_store/presentation/screens/auth/login_screen.dart';
 import 'package:e_store/presentation/widgets/connect_with.dart';
-import 'package:e_store/presentation/widgets/divider.dart';
 import 'package:e_store/presentation/widgets/elevated_button.dart';
 import 'package:e_store/utils/colors.dart';
 import 'package:flutter/material.dart';
