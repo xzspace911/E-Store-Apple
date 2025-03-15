@@ -20,9 +20,9 @@ Welcome to Apple E-Store – your go-to online marketplace for Apple products! T
   ## 🔒 On Boarding & Auth Screens 
 
 <div style="display: flex; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/6d83f5fb-9fb9-4218-adce-388ce3fc026a" width="300">
-  <img src="https://github.com/user-attachments/assets/0177eb4e-a4ea-4c8b-98b9-bf2f38d3ceb8" width="300">
-  <img src="https://github.com/user-attachments/assets/14f714b8-31da-4c2c-b098-6a10f3130051" width="300">
+  <img src="https://github.com/user-attachments/assets/6d83f5fb-9fb9-4218-adce-388ce3fc026a" width="250">
+  <img src="https://github.com/user-attachments/assets/0177eb4e-a4ea-4c8b-98b9-bf2f38d3ceb8" width="250">
+  <img src="https://github.com/user-attachments/assets/14f714b8-31da-4c2c-b098-6a10f3130051" width="250">
 </div>
 
 ## 🤖 Ai Screen 
