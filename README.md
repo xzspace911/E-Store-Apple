@@ -75,17 +75,17 @@ npm start
 
 
 <div style="display: flex; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/b8774f88-bf81-4416-997e-a91f6a025b77" width="300">
-  <img src="https://github.com/user-attachments/assets/aa2ff4e2-b309-45c0-8f73-3883b28f5feb" width="300">
-  <img src="https://github.com/user-attachments/assets/f252deda-0494-4a80-ba50-486274ac936d" width="300"> 
+  <img src="https://github.com/user-attachments/assets/b8774f88-bf81-4416-997e-a91f6a025b77" width="250">
+  <img src="https://github.com/user-attachments/assets/aa2ff4e2-b309-45c0-8f73-3883b28f5feb" width="250">
+  <img src="https://github.com/user-attachments/assets/f252deda-0494-4a80-ba50-486274ac936d" width="250"> 
 </div>
 
 ## 👤 Profile , Cart and logout
 
 <div style="display: flex; gap: 20px;">
-  <img src="https://github.com/user-attachments/assets/c471a975-f42f-43fb-a7aa-eb0b6e5d877e" width="300">
-  <img src="https://github.com/user-attachments/assets/a1df118e-86a6-4884-b594-b32d940777fb" width="300">
-  <img src="https://github.com/user-attachments/assets/4a8991ab-6e2f-45c4-9425-dfd78c157653" width="300"> 
+  <img src="https://github.com/user-attachments/assets/c471a975-f42f-43fb-a7aa-eb0b6e5d877e" width="250">
+  <img src="https://github.com/user-attachments/assets/a1df118e-86a6-4884-b594-b32d940777fb" width="250">
+  <img src="https://github.com/user-attachments/assets/4a8991ab-6e2f-45c4-9425-dfd78c157653" width="250"> 
 </div>
 
 ## 🤝 Contributing
