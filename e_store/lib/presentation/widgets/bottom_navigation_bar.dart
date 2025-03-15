@@ -1,3 +1,4 @@
+import 'package:e_store/presentation/screens/ui/chat_screen.dart';
 import 'package:e_store/presentation/screens/ui/home_screen.dart';
 import 'package:e_store/presentation/screens/ui/profile_screen.dart';
 import 'package:e_store/utils/colors.dart';
@@ -38,7 +39,7 @@ class XBottomNavigationBar extends StatelessWidget {
                   color: Colors.blue[900],
                 ),
                 IconButton(
-                  onPressed: (){},
+                  onPressed: ()=> Get.to(()=>ChatScreen()),
                   icon: Icon(Iconsax.message),
                   iconSize: 30,
                   color: Colors.blue[900],
